@@ -155,14 +155,14 @@ column-count:3;
 /* small tablet */
 @media(max-width:768px){
 .gallery-container{
-column-count:2;
+column-count:3;
 }
 }
 
 /* mobile */
 @media(max-width:576px){
 .gallery-container{
-column-count:1;
+column-count:3;
 }
 }
 
