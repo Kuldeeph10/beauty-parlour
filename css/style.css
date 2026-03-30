@@ -1,0 +1,29 @@
+body{
+font-family: Arial, sans-serif;
+}
+
+.navbar-brand{
+color:#e83e8c !important;
+}
+
+.hero{
+height:90vh;
+background:url('../images/hero.jpg') center/cover no-repeat;
+color:white;
+}
+
+.hero h1{
+font-size:48px;
+font-weight:bold;
+}
+
+.btn-pink{
+background:#e83e8c;
+color:white;
+border:none;
+padding:10px 25px;
+}
+
+.btn-pink:hover
+{background:#c2185b;
+color:white;}
