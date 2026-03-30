@@ -123,3 +123,14 @@ z-index:1000;
 {
 background:#128C7E;
 }
+
+/* About Section */
+
+.about{
+background:white;
+}
+
+.about img{
+max-height:400px;
+object-fit:cover;
+}
