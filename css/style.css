@@ -1,76 +1,151 @@
-body {
-  font-family: Arial, sans-serif;
+/* ===== Premium Beauty Parlour UI ===== */
+
+body{
+font-family:'Poppins', sans-serif;
+color:#2b2b2b;
+background:#ffffff;
+line-height:1.6;
 }
 
-.navbar-brand {
-  color: #e83e8c !important;
+/* global spacing */
+section{
+padding-top:80px;
+padding-bottom:80px;
+}
+
+/* navbar */
+.navbar{
+position:sticky;
+top:0;
+z-index:1000;
+background:white !important;
+box-shadow:0 4px 15px rgba(0,0,0,0.05);
+}
+
+.navbar-brand{
+font-weight:600;
+font-size:22px;
+color:#d63384 !important;
+}
+
+.nav-link{
+font-weight:500;
+color:#444 !important;
+}
+
+.nav-link:hover{
+color:#d63384 !important;
+}
+
+/* headings */
+h2{
+font-weight:600;
+text-align:center;
+margin-bottom:40px;
+position:relative;
+}
+
+h2::after{
+content:"";
+width:60px;
+height:3px;
+background:#d63384;
+display:block;
+margin:10px auto 0;
+border-radius:5px;
 }
 
 /* Hero Section */
-.hero {
-  height: 90vh;
-  background: url("../images/hero.jpg") center/cover no-repeat;
-  color: white;
+.hero{
+height:90vh;
+background:
+linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+url("../images/hero.jpg") center/cover no-repeat;
+
+color:white;
 }
 
-.hero h1 {
-  font-size: 48px;
-  font-weight: bold;
+.hero h1{
+font-size:52px;
+font-weight:600;
+margin-bottom:15px;
 }
 
-.btn-pink {
-  background: #e83e8c;
-  color: white;
-  border: none;
-  padding: 10px 25px;
+.hero p{
+font-size:18px;
+opacity:0.9;
 }
 
-.btn-pink:hover {
-  background: #c2185b;
-  color: white;
+/* premium button */
+.btn-pink{
+background:#d63384;
+color:white;
+border:none;
+padding:12px 30px;
+border-radius:30px;
+font-weight:500;
+letter-spacing:0.5px;
+transition:all 0.3s ease;
 }
 
-/* Services Section */
-
-.services {
-  background: #fff0f6;
+.btn-pink:hover{
+background:#b02a6f;
+transform:scale(1.05);
+color:white;
 }
 
-.service-card img {
-  height: 220px;
-  object-fit: cover;
+/* Services */
+.services{
+background:#fff5f8;
 }
 
-.service-card {
-  transition: 0.3s;
+.service-card{
+border:none;
+border-radius:18px;
+overflow:hidden;
+box-shadow:0 10px 30px rgba(0,0,0,0.06);
+transition:all 0.35s ease;
 }
 
-.service-card:hover {
-  transform: translateY(-8px);
+.service-card img{
+height:220px;
+object-fit:cover;
 }
 
-.gallery {
-  background: white;
+.service-card:hover{
+transform:translateY(-12px);
+box-shadow:0 20px 40px rgba(0,0,0,0.12);
+}
+
+.service-card h5{
+font-weight:600;
+}
+
+/* Gallery */
+.gallery{
+background:white;
 }
 
 /* Masonry layout */
-.gallery-container {
-  column-count: 4;
-  column-gap: 20px;
+.gallery-container{
+column-count:4;
+column-gap:18px;
 }
 
-.gallery-img {
-  width: 100%;
-  margin-bottom: 20px;
-  border-radius: 10px;
-  transition: 0.3s;
-  display: block;
+.gallery-img{
+width:100%;
+margin-bottom:18px;
+border-radius:14px;
+transition:all 0.35s ease;
+display:block;
+cursor:pointer;
 }
 
-.gallery-img:hover {
-  transform: scale(1.03);
+.gallery-img:hover{
+transform:scale(1.04);
 }
- /* tablet */
+
+/* tablet */
 @media(max-width:992px){
 .gallery-container{
 column-count:3;
@@ -80,71 +155,96 @@ column-count:3;
 /* small tablet */
 @media(max-width:768px){
 .gallery-container{
-column-count:3;
+column-count:2;
 }
 }
 
 /* mobile */
 @media(max-width:576px){
 .gallery-container{
-column-count:3;
+column-count:1;
 }
 }
 
-/* Booking Section */
-
-.booking{
-background:#fff0f6;
-}
-
-.booking form{
-background:white;
-padding:30px;
-border-radius:10px;
-box-shadow:0 0 10px rgba(0,0,0,0.1);
-}
-
-/* WhatsApp Button */
-.whatsapp-btn{
-position:fixed;
-bottom:20px;
-right:20px;
-background:#25D366;
-color:white;
-font-size:24px;
-padding:15px;
-border-radius:50%;
-text-decoration:none;
-box-shadow:0 0 10px rgba(0,0,0,0.2);
-z-index:1000;
-}
-
-.whatsapp-btn:hover
-{
-background:#128C7E;
-}
-
-/* About Section */
-
+/* About */
 .about{
 background:white;
 }
 
 .about img{
-max-height:400px;
+max-height:420px;
+width:100%;
 object-fit:cover;
+border-radius:18px;
+box-shadow:0 15px 35px rgba(0,0,0,0.08);
+}
+
+/* Booking */
+.booking{
+background:#fff5f8;
+}
+
+.booking form{
+background:white;
+padding:35px;
+border-radius:18px;
+box-shadow:0 15px 35px rgba(0,0,0,0.06);
+}
+
+.form-control{
+border-radius:10px;
+padding:12px;
+border:1px solid #eee;
+}
+
+.form-control:focus{
+border-color:#d63384;
+box-shadow:0 0 0 0.15rem rgba(214,51,132,0.15);
+}
+
+/* WhatsApp Button */
+.whatsapp-btn{
+position:fixed;
+bottom:22px;
+right:22px;
+background:#25D366;
+color:white;
+font-size:22px;
+padding:16px;
+border-radius:50%;
+text-decoration:none;
+box-shadow:0 8px 20px rgba(0,0,0,0.15);
+z-index:1000;
+transition:0.3s;
+}
+
+.whatsapp-btn:hover{
+background:#1ebe5d;
+transform:scale(1.08);
 }
 
 /* Footer */
 .footer{
-background:#e83e8c;
+background:#d63384;
 color:white;
 }
 
 .footer h5{
+font-weight:600;
 margin-bottom:15px;
 }
 
 .footer p{
-margin-bottom:5px;
+opacity:0.9;
+}
+
+.footer hr{
+border-color:rgba(255,255,255,0.2);
+}
+
+/* smooth hover animation */
+.card,
+.gallery-img,
+.btn-pink{
+transition:all 0.3s ease;
 }
