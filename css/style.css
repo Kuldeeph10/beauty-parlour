@@ -91,3 +91,15 @@ column-count:3;
 }
 }
 
+/* Booking Section */
+
+.booking{
+background:#fff0f6;
+}
+
+.booking form{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
