@@ -134,3 +134,17 @@ background:white;
 max-height:400px;
 object-fit:cover;
 }
+
+/* Footer */
+.footer{
+background:#e83e8c;
+color:white;
+}
+
+.footer h5{
+margin-bottom:15px;
+}
+
+.footer p{
+margin-bottom:5px;
+}
