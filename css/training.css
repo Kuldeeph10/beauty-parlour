@@ -248,3 +248,40 @@ font-weight:600;
 margin-bottom:10px;
 
 }
+
+
+/* CTA */
+
+.cta{
+
+background:#8b5cf6;
+
+color:white;
+
+padding:100px 0;
+
+}
+
+.cta h2{
+
+font-weight:600;
+
+margin-bottom:15px;
+
+}
+
+.cta p{
+
+opacity:0.9;
+
+margin-bottom:25px;
+
+}
+
+.cta .btn-lavender{
+
+background:white;
+
+color:#8b5cf6;
+
+}
