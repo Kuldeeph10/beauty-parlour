@@ -211,3 +211,40 @@ transform:translateY(-10px);
 box-shadow:0 25px 50px rgba(0,0,0,0.1);
 
 }
+
+
+/* why section */
+
+.why{
+
+background:white;
+
+}
+
+.why-box{
+
+padding:25px;
+
+border-radius:15px;
+
+transition:0.3s;
+
+}
+
+.why-box:hover{
+
+background:#f5f3ff;
+
+transform:translateY(-5px);
+
+}
+
+.why-box h5{
+
+color:#8b5cf6;
+
+font-weight:600;
+
+margin-bottom:10px;
+
+}
