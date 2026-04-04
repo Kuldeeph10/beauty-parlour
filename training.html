@@ -1,90 +1,126 @@
-<!DOCTYPE html>
+<!doctype html>
 
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
+    <title>Beauty Training Institute</title>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
 
-<title>Beauty Training Institute</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
-<!-- Bootstrap -->
+    <!-- Google font -->
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
 
-<!-- Google font -->
+    <!-- Training CSS -->
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/training.css" />
+  </head>
 
-<!-- Training CSS -->
+  <body>
+    <!-- Navbar -->
 
-<link rel="stylesheet" href="css/training.css">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"> Beauty Institute </a>
 
-</head>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-<body>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
 
-<!-- Navbar -->
+            <li class="nav-item">
+              <a class="nav-link active" href="training.html">Training</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-<nav class="navbar navbar-expand-lg">
+    <!-- Hero Section -->
 
-<div class="container">
+    <section class="training-hero">
+      <div class="container text-center">
+        <h1>Beauty Training Institute</h1>
 
-<a class="navbar-brand" href="index.html">
-Beauty Institute
-</a>
+        <p>Start your career in professional beauty industry</p>
 
-<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
-<span class="navbar-toggler-icon"></span>
-</button>
+        <a href="#" class="btn btn-lavender"> Enquire on WhatsApp </a>
+      </div>
+    </section>
 
-<div class="collapse navbar-collapse" id="menu">
+    <!-- Courses Section -->
 
-<ul class="navbar-nav ms-auto">
+    <section class="courses">
+      <div class="container">
+        <h2 class="section-title">Our Beauty Courses</h2>
 
-<li class="nav-item">
-<a class="nav-link" href="index.html">Home</a>
-</li>
+        <div class="row">
+          <!-- Course 1 -->
 
-<li class="nav-item">
-<a class="nav-link active" href="training.html">Training</a>
-</li>
+          <div class="col-md-4 mb-4">
+            <div class="course-card">
+              <img src="images/courses/course1.jpg" />
 
-</ul>
+              <h5>Bridal Makeup Course</h5>
 
-</div>
+              <p>Learn professional bridal makeup techniques step by step.</p>
 
-</div>
+              <span> Duration: 30 Days </span>
+            </div>
+          </div>
 
-</nav>
+          <!-- Course 2 -->
 
-<!-- Hero Section -->
+          <div class="col-md-4 mb-4">
+            <div class="course-card">
+              <img src="images/courses/course2.jpg" />
 
-<section class="training-hero">
+              <h5>Hair Cutting Course</h5>
 
-<div class="container text-center">
+              <p>Learn modern hair cutting styles and techniques.</p>
 
-<h1>
-Beauty Training Institute
-</h1>
+              <span> Duration: 20 Days </span>
+            </div>
+          </div>
 
-<p>
-Start your career in professional beauty industry
-</p>
+          <!-- Course 3 -->
 
-<a href="#" class="btn btn-lavender">
-Enquire on WhatsApp
-</a>
+          <div class="col-md-4 mb-4">
+            <div class="course-card">
+              <img src="images/courses/course3.jpg" />
 
-</div>
+              <h5>Full Parlour Course</h5>
 
-</section>
+              <p>Complete beauty parlour training for beginners.</p>
 
-<!-- Bootstrap JS -->
+              <span> Duration: 2 Months </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap JS -->
 
-</body>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
