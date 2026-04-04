@@ -105,7 +105,93 @@ h2::after {
 /* slider fade smooth */
 
 .carousel-fade .carousel-item {
-  transition: opacity 0.5s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+/* ===== Responsive Hero Slider ===== */
+
+/* large laptop */
+@media (max-width: 1200px) {
+  .overlay h1 {
+    font-size: 44px;
+  }
+
+  .overlay p {
+    font-size: 17px;
+  }
+}
+
+/* tablet */
+@media (max-width: 992px) {
+  .hero-slide {
+    height: 80vh;
+  }
+
+  .overlay h1 {
+    font-size: 38px;
+    line-height: 1.3;
+  }
+
+  .overlay p {
+    font-size: 16px;
+  }
+}
+
+/* mobile large */
+@media (max-width: 768px) {
+  .hero-slide {
+    height: 75vh;
+    padding: 20px;
+  }
+
+  .overlay h1 {
+    font-size: 30px;
+    line-height: 1.4;
+  }
+
+  .overlay p {
+    font-size: 15px;
+    margin-bottom: 18px;
+  }
+
+  .btn-pink {
+    padding: 10px 22px;
+    font-size: 14px;
+  }
+
+  .btn-outline-light {
+    padding: 10px 22px;
+    font-size: 14px;
+  }
+}
+
+/* mobile small */
+@media (max-width: 576px) {
+  .hero-slide {
+    height: 90vh;
+  }
+
+  .overlay {
+    padding: 15px;
+  }
+
+  .overlay h1 {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+
+  .overlay p {
+    font-size: 12px;
+  }
+
+  .btn-pink,
+  .btn-outline-light {
+    width: 100%;
+    margin-top: 8px;
+  }
+
+  .overlay .btn {
+    display: block;
+  }
 }
 
 /* Services */
