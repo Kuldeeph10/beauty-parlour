@@ -1,0 +1,108 @@
+/* Lavender Theme */
+
+body{
+
+font-family:'Poppins', sans-serif;
+color:#2d2d2d;
+
+}
+
+/* Navbar */
+
+.navbar{
+
+background:white;
+box-shadow:0 4px 20px rgba(0,0,0,0.05);
+
+}
+
+.navbar-brand{
+
+font-weight:600;
+color:#8b5cf6 !important;
+
+}
+
+.nav-link{
+
+color:#555 !important;
+
+font-weight:500;
+
+}
+
+.nav-link.active{
+
+color:#8b5cf6 !important;
+
+}
+
+/* Hero */
+
+.training-hero{
+
+height:90vh;
+
+display:flex;
+
+align-items:center;
+
+background:
+
+linear-gradient(rgba(139,92,246,0.85), rgba(139,92,246,0.85)),
+
+url("../images/training-hero.jpg") center/cover;
+
+color:white;
+
+text-align:center;
+
+}
+
+.training-hero h1{
+
+font-size:52px;
+
+font-weight:600;
+
+margin-bottom:15px;
+
+}
+
+.training-hero p{
+
+font-size:18px;
+
+opacity:0.95;
+
+margin-bottom:25px;
+
+}
+
+/* button */
+
+.btn-lavender{
+
+background:white;
+
+color:#8b5cf6;
+
+padding:12px 30px;
+
+border-radius:30px;
+
+font-weight:500;
+
+border:none;
+
+transition:0.3s;
+
+}
+
+.btn-lavender:hover{
+
+background:#ede9fe;
+
+transform:scale(1.05);
+
+}
