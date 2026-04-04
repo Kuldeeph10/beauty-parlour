@@ -105,7 +105,7 @@ h2::after {
 /* slider fade smooth */
 
 .carousel-fade .carousel-item {
-  transition: opacity 1s ease-in-out;
+  transition: opacity 1.2s ease-in-out;
 }
 /* ===== Responsive Hero Slider ===== */
 
@@ -167,7 +167,7 @@ h2::after {
 /* mobile small */
 @media (max-width: 576px) {
   .hero-slide {
-    height: 90vh;
+    height: 80vh;
   }
 
   .overlay {
@@ -175,12 +175,12 @@ h2::after {
   }
 
   .overlay h1 {
-    font-size: 24px;
+    font-size: 30px;
     line-height: 1.4;
   }
 
   .overlay p {
-    font-size: 12px;
+    font-size: 15px;
   }
 
   .btn-pink,
